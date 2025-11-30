@@ -1,0 +1,11 @@
+targets:
+  $default:
+    builders:
+      json_serializable:
+        options:
+          # Si es true, los campos opcionales se codificarán explícitamente como null
+          explicit_to_json: true
+          # Genera métodos copyWith
+          # Generate methods to create modified copies
+          # create_factory: true
+          # create_to_json: true
